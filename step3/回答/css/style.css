@@ -1,0 +1,52 @@
+.wrap {
+    width: 800px;
+    margin: auto;
+}
+
+.contents1 {
+  display: flex;
+  background-color: green;
+  padding: 15px;
+}
+
+.contents1Personal {
+  margin-right: 15px;
+  padding: 15px;
+  background-color: red;
+}
+
+.contents1Thamb {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+.contents1SnsGroup {
+  width: 150px;
+  height: 50px;
+  background-color: brown;
+}
+
+.contents1Desc {
+  width: 545px;
+  background-color: orange;
+  padding: 15px;
+}
+
+.contents2 {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+  padding: 15px;
+}
+
+.contents2Box {
+    width: 150px;
+    height: 150px;
+    margin-right: 15px;
+}
+
+.contents2Box:last-child {
+    margin-right: 0;
+}
+

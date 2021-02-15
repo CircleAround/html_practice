@@ -1,0 +1,167 @@
+.header {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+  display: inline-block;
+  margin-right: 15px;
+  list-style: none;
+}
+
+.headLine {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.wrap {
+    width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+
+.profileContent {
+  border: 1px solid black;
+  display: flex;
+  padding: 15px;
+}
+
+.profilePersonal {
+  width: 270px;
+}
+
+.profileThamb {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.profileSnsGroup {
+  text-align: center;
+}
+
+.snsBtn {
+  display: inline-block;
+  width: 100px;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 10px 0;
+  color: #FFFFFF;
+}
+
+.twBtn {
+  background-color: #358EEF;
+  margin-right: 15px;
+}
+
+.fbBtn {
+  background-color: #2D4586;
+}
+
+.profileDesc {
+  width: 630px;
+}
+
+.worksList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: -30px;
+}
+
+.worksBox {
+  height: 200px;
+  width: 270px;
+  margin: 0 0 15px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgDesignWork {
+  background-image: url('https://fakeimg.pl/250x150/81F7D8');
+  background-position: center center;
+}
+
+.bgCodingWork {
+  background-image: url('https://fakeimg.pl/250x150/F781F3');
+  background-position: center center;
+}
+
+.worksBoxText {
+  padding: 15px;
+  text-align: center;
+  display: block;
+  width: 160px;
+  color: #FFFFFF;
+  background-color: #000000;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.worksBoxTextTitle {
+  font-size: 12px;
+  padding: 0 5px 5px 5px;
+  border-bottom: solid 1px #FFFFFF;
+}
+
+@media screen and (max-width:768px) {
+  .header {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .menuList {
+    display: none;
+  }
+
+  .wrap {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+  .profileContent {
+    flex-wrap: wrap;
+  }
+
+  .profilePersonal {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .profileDesc {
+    width: 100% ;
+  }
+
+  .worksList {
+    justify-content: flex-start;
+    margin-left: -3%;
+  }
+
+  .worksBox {
+    height: 250px;
+    width: 47%;
+    margin: 0 0 15px 3%;
+  } 
+}
+
+@media screen and (max-width:480px) {
+  .worksList {
+    margin-left: auto;
+  }
+
+  .worksBox {
+    height: 200px;
+    width: 100%;
+    margin: unset;
+    margin-bottom: 15px;
+  }
+
+  .worksBox:last-child {
+    margin-bottom: 0;
+  }
+}
